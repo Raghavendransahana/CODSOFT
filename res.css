@@ -1,0 +1,226 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#F5F4DF;
+    color:#AD1C45;
+    line-height: 1.6;
+}
+
+a {
+    color: #e8bed8;
+    text-decoration: none;
+}
+
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin-left: 10px;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#showcase{
+    background-image: url("bg2.jpeg");
+    background-position:center;
+    background-size: cover;
+    margin-left: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+header {
+    background: #f2d8b5;
+    color: #59483b;
+    /* padding-top: 30px; */
+    min-height: 40px;
+   ;
+}
+
+header a {
+    color: #8F735E;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #top {
+    float: left;
+}
+#photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    
+}
+
+header #top h1 {
+    margin: 0;
+    font-size: medium;
+}
+
+header nav {
+    float: right;
+   margin-left: 150px;
+}
+
+header .highlight, header .current a {
+    color: #0779e4;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #6d0647;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 200px;
+    background-image: url("BG-SHOWCASE.jpeg") no-repeat 0 -400px;
+    background-position: bottom;
+    text-align: center;
+    color: #6B4116;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+section {
+    padding: 2em 0;
+    margin: 1em 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #c4814b;
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills li {
+    background: #db6b33;
+    color: #fff;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 8px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin: 0.5em 0;
+}
+
+#contact a {
+    color: #ab8602;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #492d04;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.containerRR{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.text-div {
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+}
+
+.image-display {
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    margin-left: 20%;
+    background-image: url("https://i.pinimg.com/564x/ad/b3/8d/adb38da04dca523c72b1cbeab5fa1057.jpg");
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.entire{
+    display: block;
+}
+.text-div{
+    background-color: #e7ddc6;
+    border-radius: 15px;
+    font-weight:bold;
+    color:#3c2a00;
+}
+
